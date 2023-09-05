@@ -1,0 +1,138 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 25%;
+  }
+
+#center{
+
+    text-align: center;
+    top: 10px;
+    
+    
+}
+
+.letterspacing{
+
+    letter-spacing: 10px;
+}
+
+.anima{
+
+    animation: drop 0.4s linear forwards;
+}
+body{
+    margin: 0;
+    background-color: #686C60;
+
+}
+
+.header{
+
+    background-color: #92D122;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: bold;
+    
+
+    padding-left: 35px;
+    padding-top: 2%;
+    
+
+}
+.linklogo{
+    text-decoration: none;
+    color: #92D122;
+  }
+  
+
+  .shaking {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .h1{
+
+    text-align: center;
+    font-size: 250%;
+  }
+  .didyouknow{
+    margin-left: 62px;
+    position: relative;
+    bottom: 53px;
+    background-color: #0B1323;
+    
+
+  }
+  .p_color{
+
+    color: #e0d4d4;
+  }
+  .circle {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+  }
+  .admin{
+
+    margin-left: 1250px;
+    position: relative;
+    bottom: 50px;
+  }
+  .admin_name{
+
+    position: relative;
+    left: 1085px;
+    position: relative;
+    bottom: 135px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+  }
+  .admin_email{
+
+    position: relative;
+    color: #0B1323;
+    left: 1086px;
+    position: relative;
+    bottom: 135px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .linkmail{
+    text-decoration: underline;
+    color: #0B1323;
+  }
+
